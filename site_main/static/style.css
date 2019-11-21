@@ -6,10 +6,25 @@ body{
     background: lightblue;
 }
 
+img{
+    width: 100%;
+}
+
 marquee{
     font-size: 100px;
 }
 
-img{
-    width: 100%;
+nav{
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
 }
+
+nav a{
+    color: rebeccapurple;
+    font-size: 14pt;
+}
+
+
