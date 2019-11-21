@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: lightblue;
+}
+
+marquee{
+    font-size: 100px;
+}
+
+img{
+    width: 100%;
+}

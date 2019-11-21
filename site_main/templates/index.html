@@ -1,0 +1,42 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Site Sem nome</title>
+</head>
+<body>
+    <marquee>Olá {{nome}}, Eu sou o site sem nome</marquee>
+    <!-- unsplash -->
+    <img src="{% static 'img/pensadora.jpg' %}" alt="">
+
+    {% if idade >= 1 and idade <= 12 %}
+    <p>
+
+        Criança
+    </p>
+
+    {% elif idade >= 13 and idade <= 17 %}
+    <p>
+
+        Jovem
+    </p>
+    {% else %}
+    <p>
+
+        Adulto
+    </p>
+    {% endif %}
+
+
+    <ul>
+        {% for coisa in coisas %}
+            <li>{{coisa}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
