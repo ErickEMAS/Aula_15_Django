@@ -20,4 +20,5 @@ from site_main import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.mostrar_index),
+    path('sortearproduto/', views.mostrar_sortear),
 ]

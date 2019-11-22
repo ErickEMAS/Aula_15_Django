@@ -22,3 +22,6 @@ def mostrar_index(request):
     }
 
     return render(request, 'index.html', args)
+
+def mostrar_sortear(request):
+    return render(request, 'sortear_frase.html')

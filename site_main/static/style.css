@@ -10,6 +10,15 @@ img{
     width: 100%;
 }
 
+footer{
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+}
+
 marquee{
     font-size: 100px;
 }
@@ -19,12 +28,13 @@ nav{
     background-color: black;
     display: flex;
     height: 80px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 nav a{
-    color: rebeccapurple;
+    color: whitesmoke;
     font-size: 14pt;
+    text-decoration: none;
 }
 
 
